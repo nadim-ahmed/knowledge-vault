@@ -201,3 +201,40 @@ main {
 .early-access h2 {
   margin: 14px;
 }
+
+.footer {
+  max-width: 1600px;
+  margin: auto;
+  background-color: rgba(0, 25, 49, 1);
+}
+.footer-content {
+  width: 80%;
+  padding-top: 40px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-text {
+  color: rgba(255, 255, 255, 1);
+  font-style: Medium;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+hr {
+  width: 80%;
+  margin: auto;
+  border: 1px solid rgba(229, 231, 235, 1);
+  opacity: 0.2;
+}
+
+.copyright {
+  color: rgba(250, 250, 250, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
